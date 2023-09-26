@@ -13,5 +13,6 @@ namespace APITask.Models
             //inorder to inject the options
         }
         public DbSet<Employee>Employees { get; set; }
+        public DbSet<Department> Departments { get; set; }
     }
 }

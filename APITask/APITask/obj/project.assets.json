@@ -7062,11 +7062,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\body\\source\\repos\\APITask\\APITask\\APITask.csproj",
+      "projectUniqueName": "C:\\Users\\body\\source\\repos\\APITasks\\APITask\\APITask\\APITask.csproj",
       "projectName": "APITask",
-      "projectPath": "C:\\Users\\body\\source\\repos\\APITask\\APITask\\APITask.csproj",
+      "projectPath": "C:\\Users\\body\\source\\repos\\APITasks\\APITask\\APITask\\APITask.csproj",
       "packagesPath": "C:\\Users\\body\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\body\\source\\repos\\APITask\\APITask\\obj\\",
+      "outputPath": "C:\\Users\\body\\source\\repos\\APITasks\\APITask\\APITask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\body\\AppData\\Roaming\\NuGet\\NuGet.Config",

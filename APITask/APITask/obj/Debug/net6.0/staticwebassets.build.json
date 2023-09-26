@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "G8FHxReGRZr025VEqd8FfzDQWXcOrILflW1BYuvFzs4=",
+  "Hash": "6g5yVcTvSSdfNtZMONajeoep+/dUi2gcVhVVo3LjP+Q=",
   "Source": "APITask",
   "BasePath": "_content/APITask",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "APITask\\wwwroot",
+      "Source": "APITask",
+      "ContentRoot": "C:\\Users\\body\\source\\repos\\APITasks\\APITask\\APITask\\wwwroot\\",
+      "BasePath": "_content/APITask",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\body\\source\\repos\\APITasks\\APITask\\APITask\\wwwroot\\htmlpage.html",
+      "SourceId": "APITask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\body\\source\\repos\\APITasks\\APITask\\APITask\\wwwroot\\",
+      "BasePath": "_content/APITask",
+      "RelativePath": "htmlpage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\htmlpage.html"
+    }
+  ]
 }

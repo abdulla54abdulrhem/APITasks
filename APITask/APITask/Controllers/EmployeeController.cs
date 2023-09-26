@@ -8,8 +8,8 @@ namespace APITask.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        Context context;
-        IEmployeeRepo employeeRepo;
+        readonly Context context;
+        readonly IEmployeeRepo employeeRepo;
         public EmployeeController(Context context)
         {
             this.context = context;

@@ -1,4 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace APITask.Models
 {
@@ -12,5 +14,12 @@ namespace APITask.Models
         public string ?Address { get; set;}
         [Range(0,int.MaxValue)]
         public int ?Phone { get; set;}
+        [ForeignKey("Department")]
+        public int ?DeptId { get; set; }
+
+        [JsonIgnore]
+        public virtual Department? Department { get; set; }
+
+                                
     }
 }
